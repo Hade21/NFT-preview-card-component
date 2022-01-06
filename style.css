@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin: 100px auto;
+    width: 200px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: hsl(215, 73%, 9%) 10px 10px 5px, hsl(215, 73%, 9%) -10px 10px 5px, hsl(215, 73%, 9%) -10px -10px 5px,hsl(215, 73%, 9%) 10px -10px 5px;
+}
+.container-img {
+    position: relative;
+    cursor: pointer;
+  }
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container-img:hover .middle {
+    opacity: 1;
+}
+  
+.text img{
+    background-color: rgba(10, 235, 247, 0.5);
+    color: white;
+    width: 30px;
+    padding: 85px;
+    border-radius: 10px;
+  }
+#title{
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+#desc{
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.detail{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+#price{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(178, 100%, 50%);
+    display: inherit;
+    align-self: center;
+}
+#time{
+    font-size: 12px;
+    color:hsl(215, 51%, 70%);
+    display: inherit;
+    align-self: center;
+}
+p img{
+    margin-right: 5px;
+}
+#identity{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+span{
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+    cursor: pointer;
+}
+#profile{
+    width: 25px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+#title:hover{
+    color: hsl(178, 100%, 50%);
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+@media (max-width : 400px) {
+    
+}
