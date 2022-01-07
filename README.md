@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![images](./images/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [https://github.com/Hade21/NFT-preview-card-component]
-- Live Site URL: [https://hade21.github.io/NFT-preview-card-component/]
+- Solution URL: [Github repo](https://github.com/Hade21/NFT-preview-card-component)
+- Live Site URL: [Github page](https://hade21.github.io/NFT-preview-card-component/)
 
 ## My process
 
@@ -84,15 +84,15 @@ Users should be able to:
 .container-img:hover .middle {
     opacity: 1;
 }
-
+```
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3school.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3School](https://www.w3school.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 
 ## Author
 
-- LinkedIn - (https://www.linkedin.com/in/muhammad-a-589675141/)
+- LinkedIn - [@Muhammd Abdurrohman](https://www.linkedin.com/in/muhammad-a-589675141/)
 - Frontend Mentor - [@Hade21](https://www.frontendmentor.io/profile/Hade21)
 
